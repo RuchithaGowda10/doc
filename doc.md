@@ -4,6 +4,7 @@ To begin the process of deploying a virtual machine in Azure, you'll first need 
 
 1.  **Navigate to the Azure Services Menu**: This menu provides access to all of Azure's functionalities.
 2.  **Click on the "+ Create a resource" Button**: This button, clearly highlighted in the red box in the screenshot, is the starting point for creating any new Azure resource, including virtual machines. Clicking this will take you to the Azure Marketplace, where you can select the type of resource you want to create.
+   
 ![Screenshot 2025-04-22 113403](https://github.com/user-attachments/assets/fdd834b9-677a-488c-a3e4-15c45ba91b11)
 
 ## Step 2: Search for the Virtual Machine
@@ -13,6 +14,7 @@ After clicking "+ Create a resource," you will be directed to the Azure Marketpl
 1. **Locate the Search Bar**: This bar is typically at the top of the "Create a resource" page, as highlighted in the red box in the screenshot.
 2. **Type "Virtual Machine" into the Search Bar**: As you type, you will likely see a dropdown menu appear with suggested search terms.
 3. **Select "Virtual Machine" from the Search Results**: This will filter the Marketplace to show options related to creating virtual machines.
+   
 ![Screenshot 2025-04-22 113420](https://github.com/user-attachments/assets/cb633543-b530-43e2-a03b-4aaced914d68)
 
 ## Step 3: Select the Virtual Machine
@@ -22,6 +24,7 @@ After searching for "virtual machine," you will see a list of various virtual ma
 1. **Identify the "Virtual machine"**: This is typically the first and most general option for creating a standard virtual machine, as highlighted in the red box in the screenshot. It is usually published by Microsoft and categorized under "Azure Service."
 2. **Review the Description (Optional)**: The description below the "Virtual machine" offer provides a brief overview, stating that "Azure Virtual Machines provide on-demand, high-scale, secure, and virtualized infrastructure using either Linux or Windows operating systems."
 3. **Click on the "Create" Button**: Located under your selected "Virtual machine", clicking this will initiate the configuration process for your new virtual machine.
+   
 ![Screenshot 2025-04-22 113444](https://github.com/user-attachments/assets/bc09816f-50c9-44ee-9a4a-d0fab722a9cb)
 
 ## Step 4: Configure Basic Virtual Machine Settings (Basics Tab)
@@ -42,7 +45,8 @@ Once you've clicked **Create** on the Virtual Machine offer, you'll be directed 
 
 - **Region**:  
   Select the Azure region where your VM will be hosted.  
-  Choosing a region closer to your users helps reduce latency.  
+  Choosing a region closer to your users helps reduce latency.
+  
 ![Screenshot 2025-04-22 113510](https://github.com/user-attachments/assets/196261a9-1e69-4819-93c7-30e92d60da3b)
 
 - **Availability Options**:  
@@ -71,6 +75,7 @@ Once you've clicked **Create** on the Virtual Machine offer, you'll be directed 
 - **VM Size**:  
   Select the VM size according to your workload needs.  
   Click **See all sizes** to view full options.
+  
 ![Screenshot 2025-04-22 113523](https://github.com/user-attachments/assets/b667b42d-7660-4c77-b640-8f964f4271fb)
   
 3. **Administrator Account**
@@ -135,6 +140,7 @@ In this step, you configure the **Operating System (OS) disk** and any additiona
 - Configure:
   - **Disk Size**
   - **Disk Type** (SSD, HDD)
+    
 ![Screenshot 2025-04-22 113553](https://github.com/user-attachments/assets/49593d80-24bf-4781-b54c-82eeca9c13a4)
 
 ---
@@ -164,6 +170,7 @@ After disk configuration is complete, click **"Next: Networking >"** to proceed 
 
   - **Basic**: Select inbound ports like SSH (22) or RDP (3389).
   - **Advanced**: Attach an existing NSG with custom rules for better control.
+    
 ![Screenshot 2025-04-22 113612](https://github.com/user-attachments/assets/284c0c39-37fb-4954-b3ad-ebfd07433060)
 
 4. **Accelerated Networking**
@@ -179,6 +186,7 @@ After disk configuration is complete, click **"Next: Networking >"** to proceed 
     - No load balancing
     - Azure Load Balancer
     - Azure Application Gateway
+      
 ![Screenshot 2025-04-22 113621](https://github.com/user-attachments/assets/41b6d599-aea4-476d-a577-4c6f9c7ee30b)
 
 ---
@@ -204,6 +212,7 @@ The "Management" tab provides various options for managing your virtual machine 
 - **Login with Microsoft Entra ID**:  
   - Allows login to the VM using Entra ID instead of local admin credentials.  
   - Requires **role assignment** (e.g., Virtual Machine Administrator Login or User Login).
+    
 ![Screenshot 2025-04-22 113632](https://github.com/user-attachments/assets/8db3b5f1-bc11-4d34-b53a-3c82df8187b9)
 
 ---
@@ -231,6 +240,7 @@ Choose how you want to monitor your virtual machine's health and performance.
 * **Enable application health monitoring:** (Optional, Advanced) Monitor the health of specific applications within the VM.
 
 **Recommendation:** For most users, **enabling recommended alert rules** and **boot diagnostics with a managed storage account** are good starting points. Consider enabling OS guest diagnostics for performance monitoring.
+
 ![Screenshot 2025-04-22 113655](https://github.com/user-attachments/assets/b53d5fb9-01bc-4134-ad4c-dbe833525b7d)
 
 Click **"Next: Advanced >"** to continue.
@@ -242,6 +252,7 @@ The "Advanced" tab provides additional, less commonly used configuration options
 1. **Extensions:** Azure VM extensions are small applications that provide post-deployment configuration and automation tasks on Azure VMs.
 2. **Custom data:** You can provide custom data, such as a cloud-init configuration, to customize your VM on first boot.
 3. **Agent:** This relates to the VM agent that enables communication and interaction with the Azure fabric.
+   
 ![Screenshot 2025-04-22 113707](https://github.com/user-attachments/assets/fad442a9-1850-4c98-b36d-f3a8b528170d)
 
 For this walkthrough, we will keep all the default settings on the "Advanced" tab. This means you do not need to make any changes.
@@ -282,7 +293,9 @@ The "Review + create" tab allows you to review all the settings you have configu
 * Azure will begin provisioning the resources for your virtual machine. This process may take a few minutes.
 * You can monitor the deployment progress through notifications in the Azure portal.
 * Once the deployment is complete, you will be able to access and manage your new virtual machine.
+  
 ![Screenshot 2025-04-22 113724](https://github.com/user-attachments/assets/88f00bbe-b7e9-4b35-be81-23e742a4480f)
+
 **Congratulations! You have successfully configured and deployed a virtual machine in Azure.**
 
   ## Step 10: Deployment Successful
@@ -296,6 +309,7 @@ Once you click "Create" on the "Review + create" tab, Azure will begin deploying
 3. This section provides information about the deployed resources.
  
 ![Screenshot 2025-04-22 113738](https://github.com/user-attachments/assets/042d5208-fe5e-4491-ae52-dc429b3db897)
+
 5. To start using and managing your newly deployed virtual machine, click the **"Go to resource"** button. This will take you to the overview page for your virtual machine.
 
 ## Step 11: Connect to Your Virtual Machine
