@@ -294,8 +294,9 @@ Once you click "Create" on the "Review + create" tab, Azure will begin deploying
 2. When the deployment is finished suessfully, you will see a page with the message "**Your deployment is complete**" displayed at the top, accompanied by a green checkmark.
 
 3. This section provides information about the deployed resources.
+ 
 ![Screenshot 2025-04-22 113738](https://github.com/user-attachments/assets/042d5208-fe5e-4491-ae52-dc429b3db897)
-4. To start using and managing your newly deployed virtual machine, click the **"Go to resource"** button. This will take you to the overview page for your virtual machine.
+5. To start using and managing your newly deployed virtual machine, click the **"Go to resource"** button. This will take you to the overview page for your virtual machine.
 
 ## Step 11: Connect to Your Virtual Machine
 
@@ -307,7 +308,9 @@ After clicking "Go to resource," you will be directed to the overview page of yo
 
 * **Connect** (likely using RDP for a Windows VM): This will typically download an RDP file for use with your local Remote Desktop Connection application.
 * **Connect via Bastion:** A more secure, browser-based connection method that avoids exposing RDP directly to the internet.
+ 
 ![Screenshot 2025-04-22 113753](https://github.com/user-attachments/assets/c7ad9340-1326-43f1-ae68-13e102ec8d6d)
+
 Choose the method that suits your needs and the configuration of your virtual machine. Follow the on-screen instructions for your chosen connection method.
 
 ## Step 12: Connect using Native RDP
@@ -319,11 +322,11 @@ After selecting "Connect," you will be presented with connection options. To con
 2. **Review Connection Details:** The page also shows the default RDP port (3389) and the administrator username you configured earlier (e.g., azureadmin).
 
 3. **Download RDP File:** Click the **"Download RDP file"** button. This will download a `.rdp` file to your local computer. This file contains the necessary connection settings.
-4. 
+   
 ![Screenshot 2025-04-22 113800](https://github.com/user-attachments/assets/33aad754-c84a-4755-a202-134586cd94ab)
 
 5. **Open the RDP File:** Once the download is complete, open the `.rdp` file. This will launch the Remote Desktop Connection application on your local machine.
-6. 
+   
 ![Screenshot 2025-04-22 113813](https://github.com/user-attachments/assets/3c6e50d3-7991-4f2a-96d3-4fd3b0cb8d94)
 
 ## Step 13: Connect via Remote Desktop Connection
