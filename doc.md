@@ -5,7 +5,7 @@ To begin the process of deploying a virtual machine in Azure, you'll first need 
 1.  **Navigate to the Azure Services Menu**: This menu provides access to all of Azure's functionalities.
 2.  **Click on the "+ Create a resource" Button**: This button, clearly highlighted in the red box in the screenshot, is the starting point for creating any new Azure resource, including virtual machines. Clicking this will take you to the Azure Marketplace, where you can select the type of resource you want to create.
    
-![Screenshot 2025-04-22 113403](https://github.com/user-attachments/assets/fdd834b9-677a-488c-a3e4-15c45ba91b11)
+   ![Screenshot 2025-04-22 113403](https://github.com/user-attachments/assets/fdd834b9-677a-488c-a3e4-15c45ba91b11)
 
 ## Step 2: Search for the Virtual Machine
 
@@ -15,7 +15,7 @@ After clicking "+ Create a resource," you will be directed to the Azure Marketpl
 2. **Type "Virtual Machine" into the Search Bar**: As you type, you will likely see a dropdown menu appear with suggested search terms.
 3. **Select "Virtual Machine" from the Search Results**: This will filter the Marketplace to show options related to creating virtual machines.
    
-![Screenshot 2025-04-22 113420](https://github.com/user-attachments/assets/cb633543-b530-43e2-a03b-4aaced914d68)
+   ![Screenshot 2025-04-22 113420](https://github.com/user-attachments/assets/cb633543-b530-43e2-a03b-4aaced914d68)
 
 ## Step 3: Select the Virtual Machine
 
@@ -25,7 +25,7 @@ After searching for "virtual machine," you will see a list of various virtual ma
 2. **Review the Description (Optional)**: The description below the "Virtual machine" offer provides a brief overview, stating that "Azure Virtual Machines provide on-demand, high-scale, secure, and virtualized infrastructure using either Linux or Windows operating systems."
 3. **Click on the "Create" Button**: Located under your selected "Virtual machine", clicking this will initiate the configuration process for your new virtual machine.
    
-![Screenshot 2025-04-22 113444](https://github.com/user-attachments/assets/bc09816f-50c9-44ee-9a4a-d0fab722a9cb)
+   ![Screenshot 2025-04-22 113444](https://github.com/user-attachments/assets/bc09816f-50c9-44ee-9a4a-d0fab722a9cb)
 
 ## Step 4: Configure Basic Virtual Machine Settings (Basics Tab)
 
@@ -47,7 +47,7 @@ Once you've clicked **Create** on the Virtual Machine offer, you'll be directed 
   Select the Azure region where your VM will be hosted.  
   Choosing a region closer to your users helps reduce latency.
   
-![Screenshot 2025-04-22 113510](https://github.com/user-attachments/assets/196261a9-1e69-4819-93c7-30e92d60da3b)
+   ![Screenshot 2025-04-22 113510](https://github.com/user-attachments/assets/196261a9-1e69-4819-93c7-30e92d60da3b)
 
 - **Availability Options**:  
   Choose how Azure should provide infrastructure redundancy:
@@ -76,7 +76,7 @@ Once you've clicked **Create** on the Virtual Machine offer, you'll be directed 
   Select the VM size according to your workload needs.  
   Click **See all sizes** to view full options.
   
-![Screenshot 2025-04-22 113523](https://github.com/user-attachments/assets/b667b42d-7660-4c77-b640-8f964f4271fb)
+   ![Screenshot 2025-04-22 113523](https://github.com/user-attachments/assets/b667b42d-7660-4c77-b640-8f964f4271fb)
   
 3. **Administrator Account**
 - **Username**:  
@@ -98,7 +98,7 @@ Once you've clicked **Create** on the Virtual Machine offer, you'll be directed 
 5. **Licensing**
 - Depending on the image selected, this section allows you to indicate if you're bringing your own license (e.g., for Windows Server).
 
-![Screenshot 2025-04-22 113540](https://github.com/user-attachments/assets/9a92fe0f-a80e-4c4f-84af-99a919360fd7)
+   ![Screenshot 2025-04-22 113540](https://github.com/user-attachments/assets/9a92fe0f-a80e-4c4f-84af-99a919360fd7)
 
 Once you're done filling out all the required fields, click the **"Next: Disks >"** button to move to the disk configuration step.
 
@@ -141,7 +141,7 @@ In this step, you configure the **Operating System (OS) disk** and any additiona
   - **Disk Size**
   - **Disk Type** (SSD, HDD)
     
-![Screenshot 2025-04-22 113553](https://github.com/user-attachments/assets/49593d80-24bf-4781-b54c-82eeca9c13a4)
+   ![Screenshot 2025-04-22 113553](https://github.com/user-attachments/assets/49593d80-24bf-4781-b54c-82eeca9c13a4)
 
 ---
 
@@ -171,7 +171,7 @@ After disk configuration is complete, click **"Next: Networking >"** to proceed 
   - **Basic**: Select inbound ports like SSH (22) or RDP (3389).
   - **Advanced**: Attach an existing NSG with custom rules for better control.
     
-![Screenshot 2025-04-22 113612](https://github.com/user-attachments/assets/284c0c39-37fb-4954-b3ad-ebfd07433060)
+   ![Screenshot 2025-04-22 113612](https://github.com/user-attachments/assets/284c0c39-37fb-4954-b3ad-ebfd07433060)
 
 4. **Accelerated Networking**
 - Toggle this ON or OFF based on the VM size and supported region.  
@@ -187,7 +187,7 @@ After disk configuration is complete, click **"Next: Networking >"** to proceed 
     - Azure Load Balancer
     - Azure Application Gateway
       
-![Screenshot 2025-04-22 113621](https://github.com/user-attachments/assets/41b6d599-aea4-476d-a577-4c6f9c7ee30b)
+   ![Screenshot 2025-04-22 113621](https://github.com/user-attachments/assets/41b6d599-aea4-476d-a577-4c6f9c7ee30b)
 
 ---
 Once all networking options are configured, click **"Next: Management >"** to proceed to VM monitoring and management settings.
@@ -213,7 +213,7 @@ The "Management" tab provides various options for managing your virtual machine 
   - Allows login to the VM using Entra ID instead of local admin credentials.  
   - Requires **role assignment** (e.g., Virtual Machine Administrator Login or User Login).
     
-![Screenshot 2025-04-22 113632](https://github.com/user-attachments/assets/8db3b5f1-bc11-4d34-b53a-3c82df8187b9)
+   ![Screenshot 2025-04-22 113632](https://github.com/user-attachments/assets/8db3b5f1-bc11-4d34-b53a-3c82df8187b9)
 
 ---
 
@@ -241,7 +241,7 @@ Choose how you want to monitor your virtual machine's health and performance.
 
 **Recommendation:** For most users, **enabling recommended alert rules** and **boot diagnostics with a managed storage account** are good starting points. Consider enabling OS guest diagnostics for performance monitoring.
 
-![Screenshot 2025-04-22 113655](https://github.com/user-attachments/assets/b53d5fb9-01bc-4134-ad4c-dbe833525b7d)
+   ![Screenshot 2025-04-22 113655](https://github.com/user-attachments/assets/b53d5fb9-01bc-4134-ad4c-dbe833525b7d)
 
 Click **"Next: Advanced >"** to continue.
 
@@ -253,7 +253,7 @@ The "Advanced" tab provides additional, less commonly used configuration options
 2. **Custom data:** You can provide custom data, such as a cloud-init configuration, to customize your VM on first boot.
 3. **Agent:** This relates to the VM agent that enables communication and interaction with the Azure fabric.
    
-![Screenshot 2025-04-22 113707](https://github.com/user-attachments/assets/fad442a9-1850-4c98-b36d-f3a8b528170d)
+   ![Screenshot 2025-04-22 113707](https://github.com/user-attachments/assets/fad442a9-1850-4c98-b36d-f3a8b528170d)
 
 For this walkthrough, we will keep all the default settings on the "Advanced" tab. This means you do not need to make any changes.
 Move on tags
@@ -270,7 +270,7 @@ The "Tags" tab allows you to assign metadata to your Azure virtual machine in th
 
 Adding tags is optional but highly recommended for better resource management and cost tracking in Azure, especially as your environment grows.
 
-![Screenshot 2025-04-22 113716](https://github.com/user-attachments/assets/4d452819-6495-4dc0-9e46-7f4a2ed0a1b4)
+   ![Screenshot 2025-04-22 113716](https://github.com/user-attachments/assets/4d452819-6495-4dc0-9e46-7f4a2ed0a1b4)
 
 **Proceed to Review and Create:** Once you have added the desired tags (or decided to skip this step), click the **"Next: Review + create >"** button to proceed to the final step of reviewing your configuration and creating the virtual machine.
 
@@ -294,7 +294,7 @@ The "Review + create" tab allows you to review all the settings you have configu
 * You can monitor the deployment progress through notifications in the Azure portal.
 * Once the deployment is complete, you will be able to access and manage your new virtual machine.
   
-![Screenshot 2025-04-22 113724](https://github.com/user-attachments/assets/88f00bbe-b7e9-4b35-be81-23e742a4480f)
+   ![Screenshot 2025-04-22 113724](https://github.com/user-attachments/assets/88f00bbe-b7e9-4b35-be81-23e742a4480f)
 
 **Congratulations! You have successfully configured and deployed a virtual machine in Azure.**
 
@@ -308,7 +308,7 @@ Once you click "Create" on the "Review + create" tab, Azure will begin deploying
 
 3. This section provides information about the deployed resources.
  
-![Screenshot 2025-04-22 113738](https://github.com/user-attachments/assets/042d5208-fe5e-4491-ae52-dc429b3db897)
+   ![Screenshot 2025-04-22 113738](https://github.com/user-attachments/assets/042d5208-fe5e-4491-ae52-dc429b3db897)
 
 5. To start using and managing your newly deployed virtual machine, click the **"Go to resource"** button. This will take you to the overview page for your virtual machine.
 
@@ -323,7 +323,7 @@ After clicking "Go to resource," you will be directed to the overview page of yo
 * **Connect** (likely using RDP for a Windows VM): This will typically download an RDP file for use with your local Remote Desktop Connection application.
 * **Connect via Bastion:** A more secure, browser-based connection method that avoids exposing RDP directly to the internet.
  
-![Screenshot 2025-04-22 113753](https://github.com/user-attachments/assets/c7ad9340-1326-43f1-ae68-13e102ec8d6d)
+   ![Screenshot 2025-04-22 113753](https://github.com/user-attachments/assets/c7ad9340-1326-43f1-ae68-13e102ec8d6d)
 
 Choose the method that suits your needs and the configuration of your virtual machine. Follow the on-screen instructions for your chosen connection method.
 
@@ -337,7 +337,7 @@ After selecting "Connect," you will be presented with connection options. To con
 
 3. **Download RDP File:** Click the **"Download RDP file"** button. This will download a `.rdp` file to your local computer. This file contains the necessary connection settings.
    
-![Screenshot 2025-04-22 113800](https://github.com/user-attachments/assets/33aad754-c84a-4755-a202-134586cd94ab)
+   ![Screenshot 2025-04-22 113800](https://github.com/user-attachments/assets/33aad754-c84a-4755-a202-134586cd94ab)
 
 5. **Open the RDP File:** Once the download is complete, open the `.rdp` file. This will launch the Remote Desktop Connection application on your local machine.
    
@@ -347,13 +347,13 @@ After selecting "Connect," you will be presented with connection options. To con
 
 **1. Connect to the Remote Computer:** You may see a warning about connecting to a remote computer. Click **"Connect"** to proceed.
 
-![Screenshot 2025-04-22 113820](https://github.com/user-attachments/assets/cb04c06b-4de7-457e-86ec-b62a61940f91)
+   ![Screenshot 2025-04-22 113820](https://github.com/user-attachments/assets/cb04c06b-4de7-457e-86ec-b62a61940f91)
 
 **2. Enter Credentials:** You will be prompted to enter your credentials. Provide the **username** (e.g., azureadmin) and the **password** you created when setting up the virtual machine.
 
 ![Screenshot 2025-04-22 113829](https://github.com/user-attachments/assets/026ba554-79e0-497f-8f0c-1dc9e1275b9c)
 
 **3. Security Certificate:** You might receive a warning about the security certificate of the remote computer. You can usually click **"Yes"** or **"Don't ask me again for connections to this computer"** and then **"Connect"** to proceed.
-![Screenshot 2025-04-22 113915](https://github.com/user-attachments/assets/68d1e5d5-dab7-4640-a565-798da5ee3019)
+   ![Screenshot 2025-04-22 113915](https://github.com/user-attachments/assets/68d1e5d5-dab7-4640-a565-798da5ee3019)
 
 You should now be successfully connected to the desktop of your Azure virtual machine, and you can begin working with it.
