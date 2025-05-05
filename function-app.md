@@ -61,7 +61,7 @@ In this Exercise you will be deploying an Function App
    
 <details>
 <summary> NOTE: </summary> 
-   - Before specifying a path, ensure that you have created a container. To create a container, duplicate this tab and navigate to <strong>Home</strong>, then go to your <strong>Resource Group</strong> and select your <strong>Newly created storage account</strong>. In the side panel, under <strong>Data storage</strong>, click on <strong>Containers</strong>and then click on <strong>+ Container</strong> to create a new container. Give the container a name and click <strong>Create</strong>.<strong>Do not close this tab</strong> and ensure that the container name you use matches the one you enter in the <strong>Path</strong> field <strong>(2)</strong>.
+   - Before specifying a path, ensure that you have created a container. To create a container, duplicate this current browser tab and navigate to <strong>Home</strong>, then go to your <strong>Resource Group</strong> and select your <strong>Newly created storage account</strong>. In the side panel, under <strong>Data storage</strong>, click on <strong>Containers</strong>and then click on <strong>+ Container</strong> to create a new container. Give the container a name and click <strong>Create</strong>.<strong>Do not close this tab</strong> and ensure that the container name you use matches the one you enter in the <strong>Path</strong> field <strong>(2)</strong>.
 </details>
 
    - Storage account connection : click on **new** **(3)**, click on the drop down and select **your storage account** **(4)**, click on **OK** **(5)**
@@ -73,7 +73,7 @@ In this Exercise you will be deploying an Function App
    ![alt text](https://raw.githubusercontent.com/RuchithaGowda10/doc-on-vm-creation/refs/heads/main/images/Screenshot%202025-05-05%20093603.png)
    ![alt text](https://raw.githubusercontent.com/RuchithaGowda10/doc-on-vm-creation/refs/heads/main/images/Screenshot%202025-05-05%20093619.png)
 
-12. Now go to the dupliacted page and go to your newly created container and upload an image.
+12. Now go to the dupliacted browser tab and go to your newly created container and upload an image.
 <details>
 <summary>NOTE:</summary>
 To navigate to your container, click on <strong>your_container</strong> that you have created.You will see an <strong>Upload</strong> button — click on it, then click on <strong>Browse files</strong>, select any image from your file manager, and finally click on <strong>Upload</strong>.
