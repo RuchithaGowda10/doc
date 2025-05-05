@@ -14,11 +14,11 @@ In this Exercise you will be deploying an Function App
 
 2. In the **Fucntion App** tab, click on **+ Create** **(1)**.
 
-   ![Create Button]([image-16.png](https://raw.githubusercontent.com/RuchithaGowda10/doc-on-vm-creation/refs/heads/main/images/Screenshot%202025-05-05%20093300.png))
+   ![Create Button](https://raw.githubusercontent.com/RuchithaGowda10/doc-on-vm-creation/refs/heads/main/images/Screenshot%202025-05-05%20093300.png)
 
 3. In the Create Function App tab select **Consumption** **(1)** and then click on **Select** **(2)**
 
-   ![Hosting Option]([image-17.png](https://raw.githubusercontent.com/RuchithaGowda10/doc-on-vm-creation/refs/heads/main/images/Screenshot%202025-05-05%20093345.png))
+   ![Hosting Option](https://raw.githubusercontent.com/RuchithaGowda10/doc-on-vm-creation/refs/heads/main/images/Screenshot%202025-05-05%20093345.png)
 
 4. In the Basics tab, fill the following details and click on **Next : Storage >** **(8)**:
 
@@ -30,29 +30,29 @@ In this Exercise you will be deploying an Function App
    - Version : click on the drop down and select **3.11** **(6)**.
    - Region : click on the drop down and select **West US** **(7)**.
 
-   ![Basics Tab]([image-18.png](https://raw.githubusercontent.com/RuchithaGowda10/doc-on-vm-creation/refs/heads/main/images/Screenshot%202025-05-05%20093405.png))
+   ![Basics Tab](https://raw.githubusercontent.com/RuchithaGowda10/doc-on-vm-creation/refs/heads/main/images/Screenshot%202025-05-05%20093405.png)
 
 5. In the Storage tab, fill the following and click on **Review  + Create** **(4)**.
 
    Storage Account : click on **Create new** **(1)** and give your storage account a **unique name** **(2)** and click on **OK** **(3)**.
 
-   ![Storage Tab]([image-19.png](https://raw.githubusercontent.com/RuchithaGowda10/doc-on-vm-creation/refs/heads/main/images/Screenshot%202025-05-05%20093429.png))
+   ![Storage Tab](https://raw.githubusercontent.com/RuchithaGowda10/doc-on-vm-creation/refs/heads/main/images/Screenshot%202025-05-05%20093429.png)
 
 6. In the Review + Create tab, click on **Create** **(1)**
 
-   ![Create Button]([image-21.png](https://raw.githubusercontent.com/RuchithaGowda10/doc-on-vm-creation/refs/heads/main/images/Screenshot%202025-05-05%20093447.png))
+   ![Create Button](https://raw.githubusercontent.com/RuchithaGowda10/doc-on-vm-creation/refs/heads/main/images/Screenshot%202025-05-05%20093447.png)
 
 7. You will be redirected to the **Microsoft.Web-FunctionApp-Portal** tab, click on **Go to resources** **(1)**
 
-   ![Go To Resource]([image-24.png](https://raw.githubusercontent.com/RuchithaGowda10/doc-on-vm-creation/refs/heads/main/images/Screenshot%202025-05-05%20093507.png))
+   ![Go To Resource](https://raw.githubusercontent.com/RuchithaGowda10/doc-on-vm-creation/refs/heads/main/images/Screenshot%202025-05-05%20093507.png)
 
 8. When you land on the overview tab, click on **Create function** **(1)**
 
-   ![Create Function]([image-25.png](https://raw.githubusercontent.com/RuchithaGowda10/doc-on-vm-creation/refs/heads/main/images/Screenshot%202025-05-05%20093529.png))
+   ![Create Function](https://raw.githubusercontent.com/RuchithaGowda10/doc-on-vm-creation/refs/heads/main/images/Screenshot%202025-05-05%20093529.png)
 
 9. A side panel will pop up with **Create funtion** containing **Select a template** tab, select **Blob trigger** **(1)** under that and click on **Next** **(2)**
 
-   ![Select A Template]([image-26.png](https://raw.githubusercontent.com/RuchithaGowda10/doc-on-vm-creation/refs/heads/main/images/Screenshot%202025-05-05%20093548.png))
+   ![Select A Template](https://raw.githubusercontent.com/RuchithaGowda10/doc-on-vm-creation/refs/heads/main/images/Screenshot%202025-05-05%20093548.png)
 
 10. After clicking on next, under **Template details** fill the following details and click on **Create** **(6)**:
 
@@ -67,12 +67,12 @@ In this Exercise you will be deploying an Function App
 
    - Storage account connection : click on **new** **(3)**, click on the drop down and select **your storage account** **(4)**, click on **OK** **(5)**
 
-   ![Template Details]([image-27.png](https://raw.githubusercontent.com/RuchithaGowda10/doc-on-vm-creation/refs/heads/main/images/Screenshot%202025-05-05%20100119.png))
+   ![Template Details](https://raw.githubusercontent.com/RuchithaGowda10/doc-on-vm-creation/refs/heads/main/images/Screenshot%202025-05-05%20100119.png)
 
 11. Once the function is created, you'll be redirected to the **Code + Test** section. Wait until the **connection** **(1)** is established (as shown below), then navigate to the **Logs** **(2)** and wait for the **'Connected'** **(3)** message to appear."**
 
-   ![alt text]([image-31.png](https://raw.githubusercontent.com/RuchithaGowda10/doc-on-vm-creation/refs/heads/main/images/Screenshot%202025-05-05%20093603.png))
-   ![alt text]([image-29.png](https://raw.githubusercontent.com/RuchithaGowda10/doc-on-vm-creation/refs/heads/main/images/Screenshot%202025-05-05%20093619.png))
+   ![alt text](https://raw.githubusercontent.com/RuchithaGowda10/doc-on-vm-creation/refs/heads/main/images/Screenshot%202025-05-05%20093603.png)
+   ![alt text](https://raw.githubusercontent.com/RuchithaGowda10/doc-on-vm-creation/refs/heads/main/images/Screenshot%202025-05-05%20093619.png)
 
 12. Now go to the dupliacted page and go to your newly created container and upload an image.
 <details>
