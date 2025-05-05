@@ -1,86 +1,116 @@
-# Step-by-Step Function App Deployment Manual
+# **Step-by-Step Function App Deployment Manual**
 
-## Objective
+## **Objective**
 
-The objective of this guide is to provide a clear, step-by-step approach to deploying Virtual Machines (VMs) efficiently and securely across various environments. It aims to equip IT professionals, system administrators, and DevOps engineers with the necessary knowledge and best practices to plan, configure, deploy, and manage VMs using automated and manual methods. This guide ensures consistency, scalability, and optimal performance in VM deployments, while aligning with organizational IT policies and cloud architecture standards.
+This guide aims to provide a comprehensive, step-by-step methodology for deploying Virtual Machines (VMs) with efficiency and security across multiple environments. It is designed to empower IT professionals, system administrators, and DevOps engineers with the knowledge and best practices required for planning, configuring, deploying, and managing VMs using both automated and manual techniques. The focus is on ensuring consistency, scalability, and optimal performance in VM deployments, all while adhering to organizational IT policies and cloud architecture standards.
 
-## Task 1: Deployment of Function App
+## **Task 1: Deploying a Function App**
 
-In this Exercise you will be deploying an Function App
+In this exercise, you will deploy a **Function App** in Azure.
 
-1. On the **Azure portal**, click on search bar, search for **Function App** **(1)**, and select **Function App** **(2)**.
+### 1. **Search for and Select Function App**
+
+   - On the **Azure portal**, type **Function App** in the search bar and select **Function App** from the results.
 
    ![Search Bar](https://raw.githubusercontent.com/RuchithaGowda10/doc-on-vm-creation/refs/heads/main/images/Screenshot%202025-05-05%20093318.png)
 
-2. In the **Fucntion App** tab, click on **+ Create** **(1)**.
+### 2. **Create a New Function App**
+
+   - In the **Function App** tab, click on **+ Create** to initiate the configuration process.
 
    ![Create Button](https://raw.githubusercontent.com/RuchithaGowda10/doc-on-vm-creation/refs/heads/main/images/Screenshot%202025-05-05%20093300.png)
 
-3. In the Create Function App tab select **Consumption** **(1)** and then click on **Select** **(2)**
+### 3. **Select Hosting Plan**
+
+   - In the **Create Function App** tab, select the **Consumption** plan and click **Select**.
 
    ![Hosting Option](https://raw.githubusercontent.com/RuchithaGowda10/doc-on-vm-creation/refs/heads/main/images/Screenshot%202025-05-05%20093345.png)
 
-4. In the Basics tab, fill the following details and click on **Next : Storage >** **(8)**:
+### 4. **Fill in Basic Information**
 
-   - Subscription : click on the drop down and select **Innova8 Training** **(1)**.
-   - Resource Group : click on the drop down and select **your particular resource group** **(2)**.
-   - Function App Name : give your function app a **unique name** **(3)**.
-   - Operating System : select **Linux(legacy)** **(4)**.
-   - Runtime Stack : click on the drop down and select **Python** **(5)**.
-   - Version : click on the drop down and select **3.11** **(6)**.
-   - Region : click on the drop down and select **West US** **(7)**.
+   In the **Basics** tab, complete the following fields and click **Next: Storage >**:
+
+   - **Subscription**: Choose **Innova8 Training**.
+   - **Resource Group**: Select your **specific resource group**.
+   - **Function App Name**: Enter a **unique name** for your function app.
+   - **Operating System**: Choose **Linux (legacy)**.
+   - **Runtime Stack**: Select **Python**.
+   - **Version**: Choose **3.11**.
+   - **Region**: Select **West US**.
 
    ![Basics Tab](https://raw.githubusercontent.com/RuchithaGowda10/doc-on-vm-creation/refs/heads/main/images/Screenshot%202025-05-05%20093405.png)
 
-5. In the Storage tab, fill the following and click on **Review  + Create** **(4)**.
+### 5. **Configure Storage**
 
-   Storage Account : click on **Create new** **(1)** and give your storage account a **unique name** **(2)** and click on **OK** **(3)**.
+   In the **Storage** tab, complete the following details:
+
+   - **Storage Account**: Click **Create new**, provide a **unique name** for your storage account, and click **OK**.
+
+   Once done, click **Review + Create**.
 
    ![Storage Tab](https://raw.githubusercontent.com/RuchithaGowda10/doc-on-vm-creation/refs/heads/main/images/Screenshot%202025-05-05%20093429.png)
 
-6. In the Review + Create tab, click on **Create** **(1)**
+### 6. **Review and Create the Function App**
+
+   - Once your configurations are validated, click **Create** to deploy the function app.
 
    ![Create Button](https://raw.githubusercontent.com/RuchithaGowda10/doc-on-vm-creation/refs/heads/main/images/Screenshot%202025-05-05%20093447.png)
 
-7. You will be redirected to the **Microsoft.Web-FunctionApp-Portal** tab, click on **Go to resources** **(1)**
+### 7. **Access the Newly Created Function App**
 
-   ![Go To Resource](https://raw.githubusercontent.com/RuchithaGowda10/doc-on-vm-creation/refs/heads/main/images/Screenshot%202025-05-05%20093507.png)
+   - Once the deployment is complete, you will be redirected to the **Microsoft.Web-FunctionApp-Portal**. Click **Go to resource**.
 
-8. When you land on the overview tab, click on **Create function** **(1)**
+   ![Go to Resource](https://raw.githubusercontent.com/RuchithaGowda10/doc-on-vm-creation/refs/heads/main/images/Screenshot%202025-05-05%20093507.png)
+
+### 8. **Create a New Function**
+
+   - In the **Overview** tab, click **Create function** to begin the process of adding a new function.
 
    ![Create Function](https://raw.githubusercontent.com/RuchithaGowda10/doc-on-vm-creation/refs/heads/main/images/Screenshot%202025-05-05%20093529.png)
 
-9. A side panel will pop up with **Create funtion** containing **Select a template** tab, select **Blob trigger** **(1)** under that and click on **Next** **(2)**
+### 9. **Select a Template for the Function**
+
+   - In the side panel that appears, under **Select a template**, choose **Blob trigger** and then click **Next**.
 
    ![Select A Template](https://raw.githubusercontent.com/RuchithaGowda10/doc-on-vm-creation/refs/heads/main/images/Screenshot%202025-05-05%20093548.png)
 
-10. After clicking on next, under **Template details** fill the following details and click on **Create** **(6)**:
+### 10. **Configure Template Details**
 
-   - Provide a function name : give your function any **name** **(1)**.
-   - Path : provide a path to your container **your_container_name/{name}** **(2)**.
-   
-<details>
-<summary> NOTE: </summary> 
-   - Before specifying a path, ensure that you have created a container. To create a container, duplicate this current browser tab and navigate to <strong>Home</strong>, then go to your <strong>Resource Group</strong> and select your <strong>Newly created storage account</strong>. In the side panel, under <strong>Data storage</strong>, click on <strong>Containers</strong>and then click on <strong>+ Container</strong> to create a new container. Give the container a name and click <strong>Create</strong>.<strong>Do not close this tab</strong> and ensure that the container name you use matches the one you enter in the <strong>Path</strong> field <strong>(2)</strong>.
-</details>
+   Under **Template details**, complete the following fields and click **Create**:
 
-   - Storage account connection : click on **new** **(3)**, click on the drop down and select **your storage account** **(4)**, click on **OK** **(5)**
+   - **Function Name**: Provide a name for your function.
+   - **Path**: Enter a path to your container in the format `your_container_name/{name}`.
+
+> **Note**: Before specifying a path, ensure that you have already created a container. To do so, duplicate this browser tab and go to **Home** > **Your Resource Group** > **Your newly created storage account**. Under **Data storage**, select **Containers** and click **+ Container**. Give your container a name and click **Create**. Return to the previous tab and enter the container's name in the **Path** field.
+
+   - **Storage Account Connection**: Click **new**, select your **storage account**, and click **OK**.
 
    ![Template Details](https://raw.githubusercontent.com/RuchithaGowda10/doc-on-vm-creation/refs/heads/main/images/Screenshot%202025-05-05%20100119.png)
 
-11. Once the function is created, you'll be redirected to the **Code + Test** section. Wait until the **connection** **(1)** is established (as shown below), then navigate to the **Logs** **(2)** and wait for the **'Connected'** **(3)** message to appear."**
+### 11. **Monitor Function Logs**
 
-   ![alt text](https://raw.githubusercontent.com/RuchithaGowda10/doc-on-vm-creation/refs/heads/main/images/Screenshot%202025-05-05%20093603.png)
-   ![alt text](https://raw.githubusercontent.com/RuchithaGowda10/doc-on-vm-creation/refs/heads/main/images/Screenshot%202025-05-05%20093619.png)
+   Once the function is created, navigate to the **Code + Test** section. Wait until the connection is established, then go to the **Logs** tab to view the connection status.
 
-12. Now go to the dupliacted browser tab and go to your newly created container and upload an image.
-<details>
-<summary>NOTE:</summary>
-To navigate to your container, click on <strong>your_container</strong> that you have created.You will see an <strong>Upload</strong> button — click on it, then click on <strong>Browse files</strong>, select any image from your file manager, and finally click on <strong>Upload</strong>.
-</details>
+   ![Logs](https://raw.githubusercontent.com/RuchithaGowda10/doc-on-vm-creation/refs/heads/main/images/Screenshot%202025-05-05%20093603.png)
+   ![Logs](https://raw.githubusercontent.com/RuchithaGowda10/doc-on-vm-creation/refs/heads/main/images/Screenshot%202025-05-05%20093619.png)
 
-13. After uploading an image, come back to your Logs tab to see all the logs of your function (as shown below). 
+### 12. **Upload an Image to Trigger the Function**
+
+   In the duplicate browser tab, go to your newly created container and upload an image:
+
+   - Click on the **Upload** button, select **Browse files**, choose an image from your file manager, and click **Upload**.
+
+### 13. **Verify the Function Execution**
+
+   Return to the **Logs** tab to verify the logs of your function. You should see logs related to the uploaded image, confirming the function was triggered.
 
    ![Function Logs](https://raw.githubusercontent.com/RuchithaGowda10/doc-on-vm-creation/refs/heads/main/images/Screenshot%202025-05-05%20093640.png)
 
-You have now successfully delpolyed your Function App and created a function to see all the logs of your function.
+---
+
+### **Conclusion**
+
+You have now successfully deployed a **Function App** and created a function that logs actions triggered by image uploads. This exercise demonstrates the key steps in deploying and managing Function Apps within Azure.
+
+---
+
