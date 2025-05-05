@@ -60,7 +60,7 @@ In this Exercise you will be deploying an Function App
    - Path : provide a path to your container **your_container_name/{name}** **(2)**.
    
 <details>
-**NOTE :**  
+<summary> NOTE: </summary> 
    - Before specifying a path, ensure that you have created a container. To create a container, duplicate this tab and navigate to **Home**, then go to your **Resource Group** and select your **Newly created storage account**. In the side panel, under **Data storage**, click on **Containers** and then click on **+ Container** to create a new container. Give the container a name and click **Create**. **Do not close this tab** and ensure that the container name you use matches the one you enter in the **Path** field (**(2)**).
 </details>
 
@@ -75,7 +75,7 @@ In this Exercise you will be deploying an Function App
 
 12. Now go to the dupliacted page and go to your newly created container and upload an image.
 <details>
-**NOTE :** 
+<summary> NOTE: </summary> 
    - To navigate to your container, Click on **your_container** that you have created, you can see an upload button, click on it and click on **browse files** and select any image from your file manager, click on **upload**
 </details>
 
