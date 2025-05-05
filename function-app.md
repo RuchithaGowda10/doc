@@ -10,7 +10,7 @@ In this Exercise you will be deploying an Function App
 
 1. On the **Azure portal**, click on search bar, search for **Function App** **(1)**, and select **Function App** **(2)**.
 
-   ![alt text](image-15.png)
+   ![Searchinf for functiona app](images/Screenshot 2025-05-05 093318.png)
 
 2. In the **Fucntion App** tab, click on **+ Create** **(1)**.
 
