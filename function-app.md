@@ -14,11 +14,11 @@ In this Exercise you will be deploying an Function App
 
 2. In the **Fucntion App** tab, click on **+ Create** **(1)**.
 
-   ![alt text](image-16.png)
+   ![Create Button]([image-16.png](https://raw.githubusercontent.com/RuchithaGowda10/doc-on-vm-creation/refs/heads/main/images/Screenshot%202025-05-05%20093300.png))
 
 3. In the Create Function App tab select **Consumption** **(1)** and then click on **Select** **(2)**
 
-   ![alt text](image-17.png)
+   ![Hosting Option]([image-17.png](https://raw.githubusercontent.com/RuchithaGowda10/doc-on-vm-creation/refs/heads/main/images/Screenshot%202025-05-05%20093345.png))
 
 4. In the Basics tab, fill the following details and click on **Next : Storage >** **(8)**:
 
@@ -30,29 +30,29 @@ In this Exercise you will be deploying an Function App
    - Version : click on the drop down and select **3.11** **(6)**.
    - Region : click on the drop down and select **West US** **(7)**.
 
-   ![alt text](image-18.png)
+   ![Basics Tab]([image-18.png](https://raw.githubusercontent.com/RuchithaGowda10/doc-on-vm-creation/refs/heads/main/images/Screenshot%202025-05-05%20093405.png))
 
 5. In the Storage tab, fill the following and click on **Review  + Create** **(4)**.
 
    Storage Account : click on **Create new** **(1)** and give your storage account a **unique name** **(2)** and click on **OK** **(3)**.
 
-   ![alt text](image-19.png)
+   ![Storage Tab]([image-19.png](https://raw.githubusercontent.com/RuchithaGowda10/doc-on-vm-creation/refs/heads/main/images/Screenshot%202025-05-05%20093429.png))
 
 6. In the Review + Create tab, click on **Create** **(1)**
 
-   ![alt text](image-21.png)
+   ![Create Button]([image-21.png](https://raw.githubusercontent.com/RuchithaGowda10/doc-on-vm-creation/refs/heads/main/images/Screenshot%202025-05-05%20093447.png))
 
 7. You will be redirected to the **Microsoft.Web-FunctionApp-Portal** tab, click on **Go to resources** **(1)**
 
-   ![alt text](image-24.png)
+   ![Go To Resource]([image-24.png](https://raw.githubusercontent.com/RuchithaGowda10/doc-on-vm-creation/refs/heads/main/images/Screenshot%202025-05-05%20093507.png))
 
 8. When you land on the overview tab, click on **Create function** **(1)**
 
-   ![alt text](image-25.png)
+   ![Create Function]([image-25.png](https://raw.githubusercontent.com/RuchithaGowda10/doc-on-vm-creation/refs/heads/main/images/Screenshot%202025-05-05%20093529.png))
 
 9. A side panel will pop up with **Create funtion** containing **Select a template** tab, select **Blob trigger** **(1)** under that and click on **Next** **(2)**
 
-   ![alt text](image-26.png)
+   ![Select A Template]([image-26.png](https://raw.githubusercontent.com/RuchithaGowda10/doc-on-vm-creation/refs/heads/main/images/Screenshot%202025-05-05%20093548.png))
 
 10. After clicking on next, under **Template details** fill the following details and click on **Create** **(6)**:
 
@@ -60,27 +60,29 @@ In this Exercise you will be deploying an Function App
    - Path : provide a path to your container **your_container_name/{name}** **(2)**.
    
 <details>
-  <summary> Note</summary>
-    Before providing a path, make sure you have created a container. (To create a container, go to **Home**, go to your **Resource Group**, select your **Newly created storage accout**, under the side panel go to **Data storage**, click on **Containers**, again click on **+ Container** to create new container, give your container a name and click on **Create** and make sure that is the same name you give in the **Path** **(2)**)
+<details>
+  <summary>Note</summary>
+  - Before specifying a path, ensure that you have created a container. To create a container, duplicate this tab and navigate to **Home**, then go to your **Resource Group** and select your **Newly created storage account**. In the side panel, under **Data storage**, click on **Containers** and then click on **+ Container** to create a new container. Give the container a name and click **Create**. **Do not close this tab** and ensure that the container name you use matches the one you enter in the **Path** field (**(2)**).
 </details>
+
    - Storage account connection : click on **new** **(3)**, click on the drop down and select **your storage account** **(4)**, click on **OK** **(5)**
 
-   ![alt text](image-27.png)
+   ![Template Details]([image-27.png](https://raw.githubusercontent.com/RuchithaGowda10/doc-on-vm-creation/refs/heads/main/images/Screenshot%202025-05-05%20100119.png))
 
 11. Once the function is created, you'll be redirected to the **Code + Test** section. Wait until the **connection** **(1)** is established (as shown below), then navigate to the **Logs** **(2)** and wait for the **'Connected'** **(3)** message to appear."**
 
-   ![alt text](image-30.png)
-   ![alt text](image-29.png)
+   ![alt text]([image-31.png](https://raw.githubusercontent.com/RuchithaGowda10/doc-on-vm-creation/refs/heads/main/images/Screenshot%202025-05-05%20093603.png))
+   ![alt text]([image-29.png](https://raw.githubusercontent.com/RuchithaGowda10/doc-on-vm-creation/refs/heads/main/images/Screenshot%202025-05-05%20093619.png))
 
-12. Now dupliacte the tab and go to your container and upload an image.
+12. Now go to the dupliacted page and go to your newly created container and upload an image.
 <details>
   <summary> Note</summary>
 
-  To navigate to your container, go to **Home**, go to your **Resource Group**, select your **Newly created storage accout**, under the side panel go to **Data storage**, click on **your_container** that you have created, you can see an upload button, click on it and click on **browse files** and select any image from your file manager, click on **upload**
+  To navigate to your container, Click on **your_container** that you have created, you can see an upload button, click on it and click on **browse files** and select any image from your file manager, click on **upload**
 </details>
 
 13. After uploading an image, come back to your Logs tab to see all the logs of your function (as shown below). 
 
-   ![alt text](image-31.png)
+   ![Function Logs](https://raw.githubusercontent.com/RuchithaGowda10/doc-on-vm-creation/refs/heads/main/images/Screenshot%202025-05-05%20093640.png)
 
 You have now successfully delpolyed your Function App and created a function to see all the logs of your function.
