@@ -32,7 +32,7 @@ In this exercise, you will be deploying a Logic App in Azure.
     - **Windows Plan**: Click **Create new** **(5)**, provide a **name for your Windows plan** **(6)**, and click **OK** **(7)**.
       Once finished, click **Next: Storage >** **(8)**.
       
-    ![image](https://github.com/user-attachments/assets/7252568d-b128-4bcb-8cd7-b012ba64c633)
+      ![image](https://github.com/user-attachments/assets/7252568d-b128-4bcb-8cd7-b012ba64c633)
 
 5. Under the **Storage** tab:
 
@@ -40,7 +40,7 @@ In this exercise, you will be deploying a Logic App in Azure.
    - **Storage Account**: Click **Create new** **(2)**, enter a unique **name** **(3)**, and click **OK** **(4)**.
      Once done, click **Review + Create** **(5)**.
      
-   ![image](https://github.com/user-attachments/assets/c3d08cb6-43d7-4145-a3ff-a40bf2dbb0d7)
+     ![image](https://github.com/user-attachments/assets/c3d08cb6-43d7-4145-a3ff-a40bf2dbb0d7)
 
 6. After your configuration is validated, click **Create** **(1)** under the **Review + Create** tab to deploy the Logic App.
    
@@ -86,8 +86,9 @@ In this exercise, you will be deploying a Logic App in Azure.
 
     - **To**: Enter any valid **email address** **(1)**.
     - **Subject** and **Body**: Specify the subject and body of the email **(2)**.
-
-    ![image](https://github.com/user-attachments/assets/c28a95f6-b575-4288-9dd5-095632fc6fb3)
+      > ⚠️ **Note**: You may be prompted to sign in with your Outlook/Microsoft account to authorize this connector.
+    
+      ![image](https://github.com/user-attachments/assets/c28a95f6-b575-4288-9dd5-095632fc6fb3)
 
 17. Click **Save** **(1)** and then click **Run** **(2)** to execute the workflow.
 
