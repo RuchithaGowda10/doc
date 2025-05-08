@@ -79,26 +79,26 @@ In this exercise, you will be deploying a Logic App in Azure.
     ![image](https://github.com/user-attachments/assets/85ec1e44-b1b0-4532-a88e-e79c8d7f7191)
 
 15. In the **Add an action** tab, search for **"outlook.com"** **(1)** and select **Send an email (V2)** **(2)**.
+       > ⚠️ **Note**: You may be prompted to sign in with your Outlook/Microsoft account to authorize this connector.
+       
+       ![image](https://github.com/user-attachments/assets/df7d08cc-0348-451f-9be2-3037bbb94a08)
 
-    ![image](https://github.com/user-attachments/assets/df7d08cc-0348-451f-9be2-3037bbb94a08)
-
-16. Set up the email action by providing the following parameters:
+17. Set up the email action by providing the following parameters:
 
     - **To**: Enter any valid **email address** **(1)**.
     - **Subject** and **Body**: Specify the subject and body of the email **(2)**.
-      > ⚠️ **Note**: You may be prompted to sign in with your Outlook/Microsoft account to authorize this connector.
     
       ![image](https://github.com/user-attachments/assets/c28a95f6-b575-4288-9dd5-095632fc6fb3)
 
-17. Click **Save** **(1)** and then click **Run** **(2)** to execute the workflow.
+18. Click **Save** **(1)** and then click **Run** **(2)** to execute the workflow.
 
     ![image](https://github.com/user-attachments/assets/9f3bb305-1864-4be1-9e95-1e5a05342bb4)
 
-18. In the **Workflow** tab, select **Run history** **(1)** to view the execution history.
+19. In the **Workflow** tab, select **Run history** **(1)** to view the execution history.
 
     ![image](https://github.com/user-attachments/assets/4f032d84-0f23-46d6-8a81-0de1c2c60990)
 
-19. Review the details of your workflow execution in the **Run history**.
+20. Review the details of your workflow execution in the **Run history**.
 
     ![image](https://github.com/user-attachments/assets/cae88ebb-3313-41ce-af98-53b33abe13c8)
 
