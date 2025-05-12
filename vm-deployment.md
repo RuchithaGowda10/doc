@@ -1,12 +1,12 @@
 # Step-by-Step VM Deployment Manual
 
-## objective
+## Objective
 
 The objective of this guide is to provide a clear, step-by-step approach to deploying Virtual Machines (VMs) efficiently and securely across various environments. It aims to equip IT professionals, system administrators, and DevOps engineers with the necessary knowledge and best practices to plan, configure, deploy, and manage VMs using automated and manual methods. This guide ensures consistency, scalability, and optimal performance in VM deployments, while aligning with organizational IT policies and cloud architecture standards.
 
-## Task 1: Deplyment of VM
+## Task 1: Deployment of VM
 
-In this Ex you will be deploying an VM 
+In this Exercise, you will be deploying an VM 
 
 1. On the **Azure portal**, click on search bar, search for **Vitutual machine** **(1)**, and select **Vitutual machine** **(2)**.
 
